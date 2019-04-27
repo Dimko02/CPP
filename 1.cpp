@@ -3,7 +3,7 @@
 int main()
 {
 	int count;
-	std::cout << "Ââåäèòå ÷èñëî: ";
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: ";
 	std::cin >> count;
 	if(count<0)
 		std::cout << count << " - asd";
@@ -12,25 +12,25 @@ int main()
 	        if(count<101)   
 	        {
 		        if(count == 1) 
-			        std::cout << count << " äåğåâî";
+			        std::cout << count << " Ğ´ĞµÑ€ĞµĞ²Ğ¾";
 		        if(count > 1 && count < 5)
-			        std::cout << count << " äåğåâà";
+			        std::cout << count << " Ğ´ĞµÑ€ĞµĞ²Ğ°";
 		        if(count > 4 && count <21)
-			        std::cout << count << " äåğåâüåâ";
+			        std::cout << count << " Ğ´ĞµÑ€ĞµĞ²ÑŒĞµĞ²";
 	        }
             	else
             	{
                 	if(count % 100 <5 || count %100 >19)
                     	{
                     		if(count % 10 == 1)
-                        		std::cout << count <<" äåğåâî";
+                        		std::cout << count <<" Ğ´ĞµÑ€ĞµĞ²Ğ¾";
                     		if(count %10 <5 && count %10 >1)
-                        		std::cout << count <<" äåğåâà";
+                        		std::cout << count <<" Ğ´ĞµÑ€ĞµĞ²Ğ°";
                     	}
                 	else
-                    	std::cout << count << " äåğåâüåâ";
+                    	std::cout << count << " Ğ´ĞµÑ€ĞµĞ²ÑŒĞµĞ²";
             	}
     	}
     	else
-		std::cout << count <<" äåğåâüåâ";
+		std::cout << count <<" Ğ´ĞµÑ€ĞµĞ²ÑŒĞµĞ²";
 }
